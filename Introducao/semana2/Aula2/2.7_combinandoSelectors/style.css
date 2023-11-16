@@ -1,0 +1,23 @@
+h2, h5 {
+    color: #f4ce15;
+}
+
+.caixa {
+    color: blue;
+}
+
+li {
+    color: rgb(236, 130, 122);
+}
+
+li.usada {
+    color: purple;
+}
+
+.alimentos {
+    color: rgb(17, 237, 245);
+}
+
+.caixa .moveis .usada {
+    color: greenyellow;
+}
