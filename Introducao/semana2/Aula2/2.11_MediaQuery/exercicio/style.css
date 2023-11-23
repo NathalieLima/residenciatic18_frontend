@@ -1,0 +1,20 @@
+@media (max-width: 772px) 
+{
+    * {
+        background-color: yellow;
+    } 
+}
+
+@media (min-width: 773px) and (max-width: 1100px) 
+{
+    * {
+        background-color: green;
+    }
+}
+
+@media (min-width: 1101px) 
+{
+    * {
+        background-color: purple;
+    } 
+}

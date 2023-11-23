@@ -1,0 +1,24 @@
+.nomeCor {
+    font-weight: bold;
+}
+
+#amarelo {
+    color: #f4ce15;
+}
+
+#vermelho {
+    color: red;
+}
+
+#azul {
+    color: blue;
+}
+
+#violeta {
+    color: blueviolet;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
