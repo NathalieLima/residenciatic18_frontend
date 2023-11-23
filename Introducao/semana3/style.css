@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    
+}
+
+#ola {
+    
+    background-color: yellow;
+}
+
+#hi {
+    background-color: blue;
+}
+
+#kk {
+    background-color: red;
+}
+
+#hey {
+    background-color: green;
+}
