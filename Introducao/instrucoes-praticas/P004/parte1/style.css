@@ -67,6 +67,10 @@ li::before {
     border-radius: 10px;
 }
 
+.roteiro-comprr:hover {
+    cursor: pointer;
+    color: black;
+}
 
 
 
