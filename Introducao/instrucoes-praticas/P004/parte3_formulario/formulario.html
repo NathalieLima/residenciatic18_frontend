@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cadastro Pacote Turístico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-page">
+        <div class="container-form">
+            <div class="form-image">
+                <img src="/introducao/instrucoes-praticas/P004/assets/imgs/viagens.webp" alt="" class="travel-people">
+            </div>
+            <div class="form-content">
+                <form action="" id="form-viagens">
+                    <div class="form-title">
+                        <h2>Formulário de Registro</h2>
+                    </div>
+
+                    <label for="">URL da imagem:</label>
+                    <input type="url" name="image-url" id="">
+            
+                    <label for="">Nome da cidade:</label>
+                    <input type="text" name="cidade" id="" placeholder="Nome">
+                    
+                    <label for="">Aéreo ida e volta?</label>
+                    <div class="grupo-beneficios">
+                        <input type="radio" name="aereo" id="" value="sim"> Sim
+                        <input type="radio" name="aereo" id="" value="não"> Não
+                    </div>
+                    
+                    <label for="">Quantidade de diárias:</label>
+                    <input type="number" name="diarias" id="" placeholder="Quantidade">
+
+                    <label for="">Café da manhã incluso?</label>
+                    <div class="group-radio">
+                        <input type="radio" name="cafe_manha" id="" value="sim"> Sim
+                        <input type="radio" name="cafe_manha" id="" value="não"> Não
+                    </div>
+            
+                    <label for="">Preço:</label>
+                    <input type="number" name="preco" id="" placeholder="Preço">
+            
+                    <label for="">Taxas inclusas?</label>
+                    <div class="group-radio">
+                        <input type="radio" name="taxas" id="" value="sim"> Sim
+                        <input type="radio" name="taxas" id="" value="não"> Não
+                    </div>
+            
+                    <label for="">Em até quantas vezes sem juros?</label>
+                    <input type="number" name="vezes_sem_juros" id="" placeholder="Quantidade">
+                
+                    <div class="send-form">
+                        <button class="form-button" id="teste" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr />
+    
+        <div class="container-destinos">
+            <div class="roteiros-viagens">
+                <img src="/introducao/instrucoes-praticas/P004/assets/imgs/salvador.jpg" class="postal">
+                <div class="roteiro-destino">Salvador</div>
+                    <ul class="roteiro-incluso">
+                        <li>Áereo ida e volta</li>
+                        <li>03 diárias</li>
+                        <li>Café da Manhã</li>
+                    </ul>
+                <div class="roteiro-preco">R$670,00</div>
+                <div class="roteiro-obs">Taxas Inclusas</div>
+                <div class="roteiro-parcelamento">Em até 10x sem Juros</div>
+                <button class="roteiro-comprar">Comprar</button>
+            </div>
+            <div class="roteiros-viagens">
+                <img src="/introducao/instrucoes-praticas/P004/assets/imgs/fortaleza.jpg" class="postal">
+                <div class="roteiro-destino">Fortaleza</div>
+                <ul class="roteiro-incluso">
+                   <li>Áereo ida e volta</li>
+                   <li>06 diárias</li>
+                   <li>Café da Manhã</li>
+                </ul>
+                <div class="roteiro-preco">R$1513,00</div>
+                <div class="roteiro-obs">Taxas Inclusas</div>
+                <div class="roteiro-parcelamento">Em até 10x sem Juros</div>
+                <button class="roteiro-comprar">Comprar</button>
+            </div>
+            <div class="roteiros-viagens" id="ultimo-roteiro">
+                <img src="/introducao/instrucoes-praticas/P004/assets/imgs/campinas.jpg" class="postal">
+                <div class="roteiro-destino">Campinas</div>
+                <ul class="roteiro-incluso">
+                    <li>Áereo ida e volta</li>
+                    <li>04 diárias</li>
+                    <li>Café da Manhã</li>
+                </ul>
+                <div class="roteiro-preco">R$900,00</div>
+                <div class="roteiro-obs">Taxas Inclusas</div>
+                <div class="roteiro-parcelamento">Em até 10x sem Juros</div>
+                <button class="roteiro-comprar">Comprar</button>
+            </div>
+            <div id="teste-clone">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

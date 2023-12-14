@@ -1,0 +1,11 @@
+<img src="./ararinha.png" alt="">
+<img src="https://w7.pngwing.com/pngs/375/833/png-transparent-rio-blue-illustration-jewel-blu-4d-film-rio-parrot-animals-parakeet-fauna.png" alt="">
+<h1 [class]="name">{{name}} {{getToString()}}</h1>
+
+<input type="text" [(ngModel)]="tipo">
+<p>{{tipo}}</p>
+
+
+<h2 (click)="changeColor()" (ngStyle)="{'background-color': {color}}">Something here</h2>
+
+<h3>Contagem de coisas: {{contador}}</h3>

@@ -1,0 +1,5 @@
+<input type="text" [(ngModel)]="permissao" (input)="onLogando()" >
+
+<button disabled="{{desabilitado}}" (click)="aparecerTexto()">Logar</button>
+
+<p [ngStyle]="{'display': visibilidade}">Bem-vindo, {{nome}}, você está logado!</p>

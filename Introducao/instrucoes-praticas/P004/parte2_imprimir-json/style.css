@@ -65,11 +65,21 @@ li::before {
     color: white;
     border: none;
     border-radius: 10px;
+    transition: background-color, transform, box-shadow;
+    transition-duration: 2s;
 }
 
-.roteiro-comprr:hover {
+.roteiro-comprar:hover {
     cursor: pointer;
+    background-color: aqua;
     color: black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    
+}
+
+.roteiro-comprar:active {
+    transform: scale(0.80);
 }
 
 
