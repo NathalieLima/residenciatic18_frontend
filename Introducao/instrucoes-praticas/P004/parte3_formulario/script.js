@@ -38,7 +38,7 @@ function clonarElemento(event, classes_elementos, id_roteiro, id_form, chaves_ob
     // Inserir no final do elemento pai 
     console.dir(card_roteiro)
     TESTEZAO.innerHTML += novo_card.innerHTML
-    teste_clone.parentNode.appendChild(novo_card);
+    //teste_clone.parentNode.appendChild(novo_card);
 }
 
 function tratarValoresFormulario(valores)

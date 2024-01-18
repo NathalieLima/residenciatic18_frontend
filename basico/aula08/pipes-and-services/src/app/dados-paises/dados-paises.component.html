@@ -1,0 +1,24 @@
+<p>Tabela com thead, tfoot, e tbody</p>
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>População</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let country of countries">
+      <tr>
+        <td>{{ country.name }}</td>
+        <td>{{ country.population }}</td>
+      </tr>
+    </ng-container>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>{{ getCountCountries() }}</td>
+      <td>{{ getPopulationTotal() }}</td>
+    </tr>
+  </tfoot>
+</table>
+

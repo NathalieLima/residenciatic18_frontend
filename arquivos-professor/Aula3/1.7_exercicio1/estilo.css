@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 70px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: '✓ ';
+}
+
+.container-destinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.roteiros-viagens {
+    background-color: #e5d4ff;
+    color: #7a34b9;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+.roteiro-destino {
+    font-weight: bold;
+}
+
+.roteiro-preco {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.roteiro-obs, .roteiro-parcelamento {
+    font-size: 10px;
+}
+
+.roteiro-comprar {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #97d43a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) 
+{
+    .container-destinos{
+        flex-direction: column;
+        width: 200px;
+    }
+}
